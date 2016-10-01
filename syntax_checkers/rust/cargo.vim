@@ -39,6 +39,7 @@ function! SyntaxCheckers_rust_cargo_GetLocList() dict
                 \ '%-G,' .
                 \ '%-Gerror: aborting %.%#,' .
                 \ '%-Gerror: Could not compile %.%#,' .
+                \ '%-Gwarning: the option %.%#,' .
                 \ '%Eerror: %m,' .
                 \ '%Eerror[E%n]: %m,' .
                 \ '%Wwarning: %m,' .
